@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
   public void onClick(View view) {
     if (view.getId() == R.id.defaultTheme) {
       new FinestWebView.Builder(this).titleDefault("The Finest Artist")
-          .show("http://thefinestartist.com");
+          .show("http://www.miruki.ru");
       ////                    .toolbarScrollFlags(0)
       //                    .webViewJavaScriptEnabled(true)
       //                    .webViewUseWideViewPort(false)
